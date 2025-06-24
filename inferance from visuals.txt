@@ -1,0 +1,11 @@
+    Feature              Observation from Dataset                          Key Inference                                         
+
+   Survived              ~38% survived                             Most passengers died; survival was not even.              
+   Pclass           1st class: more survivors                      Wealth influenced survival due to cabin access, priority. 
+   Sex              Most survivors: female                        Strong gender bias in rescue priority.                    
+   Age              Children (esp. <10) survived more                Younger passengers were rescued earlier.                  
+   Fare                 Higher fare → higher survival                    Fare often reflects class → better access.                
+ SibSp, Parch         1–2 family members survived better               Small groups helped; too many hindered.                   
+  Embarked         Cherbourg passengers survived more               Many 1st class boarded from Cherbourg.                    
+  Cabin            Mostly missing, but present = high class         Non-null cabin indicates priority access.                 
+  Ticket           Complex feature; inconsistent                    Limited direct insight unless further parsed.             
